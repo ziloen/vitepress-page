@@ -1,3 +1,0 @@
-# SVG
-
-[index](./index.md)
