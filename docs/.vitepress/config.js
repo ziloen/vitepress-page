@@ -2,7 +2,7 @@
  * @type {import('vitepress').UserConfig}
  */
 const config = {
-  base: '/',
+  base: '/vitepress-page/',
   outDir: '../dist'
 }
 
