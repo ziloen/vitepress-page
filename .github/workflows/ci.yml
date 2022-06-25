@@ -23,13 +23,12 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Run install and build
         run: pnpm install && pnpm run build
 
-      - name: Upload dist fold
-        uses: actions/upload-artifact
+      - name: Upload dist folder
+        uses: actions/upload-artifact@v3
         with:
           path: dist
-
