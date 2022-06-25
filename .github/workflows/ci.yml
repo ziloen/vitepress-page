@@ -19,7 +19,7 @@ jobs:
         with:
           version: 7
 
-      - name: Set node version to 16
+      - name: Set node version to 18
         uses: actions/setup-node@v2
         with:
           node-version: 18
