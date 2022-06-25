@@ -32,17 +32,18 @@ jobs:
         run: pnpm install && pnpm run build
 
       # - name: Upload docs folder
-      #   uses: actions/upload-artifact@main
+      #   uses: actions/jekyll-build-pages@main
       #   with:
-      #     path: docs/
+      #     # source: ./docs
+      #     token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload docs folder
-        uses: actions/jekyll-build-pages@main
-        with:
-          source: ./docs
-          token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Deploy
+      #   uses: actions/deploy-pages@v1
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Deploy
-        uses: actions/deploy-pages@v1
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: docs
