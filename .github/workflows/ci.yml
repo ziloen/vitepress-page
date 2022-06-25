@@ -15,15 +15,15 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v3
 
       - name: Install pnpm
-        uses: pnpm/action-setup@main
+        uses: pnpm/action-setup@v2
         with:
           version: 7
 
       - name: Set node version to 18
-        uses: actions/setup-node@main
+        uses: actions/setup-node@v2
         with:
           node-version: 18
           cache: "pnpm"
@@ -37,6 +37,6 @@ jobs:
           path: docs/
 
       - name: Deploy
-        uses: actions/deploy-pages@main
+        uses: actions/deploy-pages@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
