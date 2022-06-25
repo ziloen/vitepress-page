@@ -31,10 +31,16 @@ jobs:
       - name: Run install and build
         run: pnpm install && pnpm run build
 
+      # - name: Upload docs folder
+      #   uses: actions/upload-artifact@main
+      #   with:
+      #     path: docs/
+
       - name: Upload docs folder
-        uses: actions/upload-artifact@main
+        uses: actions/jekyll-build-pages@main
         with:
-          path: docs/
+          source: ./docs
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy
         uses: actions/deploy-pages@v1
