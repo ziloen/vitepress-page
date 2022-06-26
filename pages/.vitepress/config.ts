@@ -41,7 +41,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ziloen' }
     ],
-    lastUpdatedText: 'Last update at: '
+    // lastUpdatedText: 'Last update at'
   },
 
   markdown: {
