@@ -9,7 +9,6 @@ lastUpdated: true
 #   - - meta
 #     - name: keywords
 #       content: super duper SEO
-
 ---
 
 # {{ $frontmatter.title }}
