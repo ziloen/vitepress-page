@@ -32,7 +32,7 @@ export default defineConfig({
         {
           text: '标签',
           items: [
-            { text: 'a', link: '/svg/index' }
+            { text: 'a', link: '/svg/' }
           ]
         }
       ]
