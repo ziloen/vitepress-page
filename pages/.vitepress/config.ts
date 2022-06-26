@@ -28,10 +28,19 @@ export default defineConfig({
       }
     ],
     sidebar: {
-      '<a></a>': [
-
+      '/svg/': [
+        {
+          text: '标签',
+          items: [
+            { text: 'a', link: '/svg/index' }
+          ]
+        }
       ]
     },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/ziloen' }
+    ],
     lastUpdatedText: 'Last update at: '
   },
 
