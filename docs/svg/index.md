@@ -13,6 +13,20 @@ lastUpdated: true
 
 # {{ $frontmatter.title }}
 
+<div>
+  {{ a }}
+  <button @click="a++">
+  +1</button>
+</div>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import { useData } from 'vitepress'
+const a = ref(1)
+const { site, page, theme } = useData()
+console.log({ site, page, theme })
+</script>
+
 ## 标签
 
 ```vue
@@ -137,3 +151,5 @@ onMounted(() => {
 ## 属性
 
 ## 方法
+
+
