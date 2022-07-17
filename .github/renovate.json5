@@ -5,10 +5,16 @@
     "schedule:daily",
     "group:allNonMajor"
   ],
+  "labels": [
+    "dependencies"
+  ],
   "pin": false,
+  "rangeStrategy": "bump",
   "packageRules": [
     {
-      "depTypeList": ["peerDependencies"],
+      "depTypeList": [
+        "peerDependencies"
+      ],
       "enabled": false
     }
   ]
