@@ -5,11 +5,17 @@
     "schedule:daily",
     "group:allNonMajor"
   ],
+  "reviewers": [
+    "@ziloen"
+  ],
   "labels": [
     "dependencies"
   ],
   "pin": false,
   "rangeStrategy": "bump",
+  "constraints": {
+    "pnpm": "7"
+  },
   "packageRules": [
     {
       "depTypeList": [
