@@ -16,7 +16,7 @@
     "vitepress-tags": "^0.6.2"
   },
   "dependencies": {
-    "fast-glob": "^3.2.11",
-    "vue": "^3.2.37"
+    "fast-glob": "latest",
+    "vue": "latest"
   }
 }
