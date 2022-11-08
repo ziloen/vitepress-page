@@ -1,6 +1,6 @@
 
-import { defineConfig, useData } from 'vitepress'
-import type { UserConfig, DefaultTheme, } from 'vitepress'
+import { defineConfig } from 'vitepress'
+import { github } from './meta'
 
 // import getTags from 'vitepress-tags'
 
@@ -13,6 +13,7 @@ export default defineConfig({
   base: '/vitepress-page/',
   outDir: '../dist',
 
+  appearance: "dark",
   lastUpdated: true,
 
   themeConfig: {
@@ -39,8 +40,14 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ziloen' }
+      { icon: 'github', link: github }
     ],
+
+    algolia: {
+      appId: "",
+      apiKey: "",
+      indexName: ""
+    },
     // lastUpdatedText: 'Last update at'
   },
 
