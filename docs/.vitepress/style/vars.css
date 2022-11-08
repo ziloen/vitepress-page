@@ -1,3 +1,14 @@
+
+/**
+ * Colors 
+ * --------------------------------------------- */
+
+:root {
+  --vp-c-accent: #dab40b;
+  --vp-c-brand: #ff1294;
+}
+
+
 :root {
   --vp-font-family-mono: "Fira Code";
 }
