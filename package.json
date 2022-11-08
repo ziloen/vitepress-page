@@ -12,11 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "latest",
+    "vitepress": "1.0.0-alpha.27",
     "vitepress-tags": "^0.6.3"
   },
   "dependencies": {
     "fast-glob": "latest",
-    "vue": "latest"
+    "vue": "^3.2.41"
   }
 }
