@@ -13,7 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "vite": "^4.0.1",
-    "vitepress": "1.0.0-alpha.31",
+    "vitepress": "1.0.0-alpha.32",
     "vitepress-tags": "^0.6.5"
   },
   "dependencies": {
