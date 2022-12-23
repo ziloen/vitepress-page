@@ -12,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^4.0.2",
-    "vitepress": "1.0.0-alpha.32",
+    "vite": "^4.0.3",
+    "vitepress": "1.0.0-alpha.33",
     "vitepress-tags": "^0.6.5"
   },
   "dependencies": {
     "fast-glob": "latest",
-    "unocss": "^0.47.6",
+    "unocss": "^0.48.0",
     "vue": "^3.2.45"
   }
 }
