@@ -24,6 +24,10 @@ export default defineConfig({
         link: '/svg/index'
       },
       {
+        text: "Pages",
+        link: "/pages/index"
+      },
+      {
         text: 'index',
         link: '/index'
       }
@@ -35,6 +39,15 @@ export default defineConfig({
           items: [
             { text: 'a', link: '/svg/' }
           ]
+        }
+      ],
+      '/pages/': [
+        {
+          "text": "Event",
+          items: [{
+            text: "KeyboardEvent",
+            link: "/pages/KeyboardEvent"
+          }]
         }
       ]
     },
