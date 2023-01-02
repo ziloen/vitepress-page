@@ -44,10 +44,16 @@ export default defineConfig({
       '/pages/': [
         {
           "text": "Event",
-          items: [{
-            text: "KeyboardEvent",
-            link: "/pages/KeyboardEvent"
-          }]
+          items: [
+            {
+              text: "KeyboardEvent",
+              link: "/pages/KeyboardEvent"
+            },
+            {
+              text: "BorderImage",
+              link: "/pages/BorderImage"
+            }
+          ]
         }
       ]
     },
