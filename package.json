@@ -12,16 +12,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@ziloen/eslint-config": "^0.0.83",
-    "@ziloen/eslint-config-format": "^0.0.83",
-    "eslint": "^8.34.0",
+    "@ziloen/eslint-config": "^0.0.84",
+    "@ziloen/eslint-config-format": "^0.0.84",
+    "eslint": "^8.35.0",
     "vite": "^4.1.4",
-    "vitepress": "1.0.0-alpha.47",
+    "vitepress": "1.0.0-alpha.49",
     "vitepress-tags": "^0.6.5"
   },
   "dependencies": {
     "fast-glob": "latest",
-    "unocss": "^0.50.1",
+    "unocss": "^0.50.3",
     "vue": "^3.2.47"
   }
 }
